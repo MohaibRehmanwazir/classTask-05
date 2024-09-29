@@ -30,15 +30,15 @@ calculateBtn.addEventListener("click",()=>{
   console.log(days)
   
   
-//   if(days < 0 ){
-//     months--;
-//     days = days + new Date(todayDate.getFullYear(), todayDate.getMonth()).getDate();
-//   }
-//   if (months < 0) {  
-//     years--;  
-//     months += 12;  
-//   }  
-//     document.getElementById("years").innerText = years;
-//     document.getElementById("months").innerText = months;
-//     document.getElementById("days").innerText = days;
-// })
+  if(days < 0 ){
+    months--;
+    days = days + new Date(todayDate.getFullYear(), todayDate.getMonth()).getDate();
+  }
+  if (months < 0) {  
+    years--;  
+    months += 12;  
+  }  
+    document.getElementById("years").innerText = years;
+    document.getElementById("months").innerText = months;
+    document.getElementById("days").innerText = days;
+})
