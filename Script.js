@@ -26,8 +26,8 @@ calculateBtn.addEventListener("click",()=>{
   console.log("months",months)
   
   // Days
-//   var days = todayDate.getDate() - inputDate.getDate();
-//   console.log(days)
+  var days = todayDate.getDate() - inputDate.getDate();
+  console.log(days)
   
   
 //   if(days < 0 ){
