@@ -15,6 +15,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Contanier class */
 .container {
     width: 27%;
     display: flex;
@@ -22,10 +23,11 @@ body{
     justify-content: center;
     background-color: #000;
     padding: 40px 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     text-align: center;
     margin-bottom: 3rem;
 }
+/* data input */
 .data-input{
     display: flex;
     align-items: center;
@@ -33,12 +35,14 @@ body{
     margin-bottom: 20px;
     /* border: 2px solid greenyellow; */
 }
+/* Input */
 input[type = "date"]{
     padding: 10px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
 }
+/* Button */
 button {
     padding: 12px 20px;
     margin-top: 3px;
@@ -50,8 +54,10 @@ button {
     cursor: pointer;
 }
 button:hover{
-    background-color: lightgray;
+    bac
+    kground-color: lightgray;
 }
+/* Result class */
 .result{
     display: flex;
 }
